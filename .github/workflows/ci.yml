@@ -48,3 +48,4 @@ jobs:
           name: Frontend Unit Test Report
           path: ./bugtracker-frontend/test-results.xml
           reporter: jest-junit
+          token: ${{ secrets.GITHUB_TOKEN }}
